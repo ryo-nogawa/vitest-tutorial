@@ -1,0 +1,10 @@
+{
+  "name": "vitest-tutorial",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "type": "module",
+  "devDependencies": {
+    "typescript": "^7.0.2",
+    "vitest": "^5.1.2"
+  }
+}

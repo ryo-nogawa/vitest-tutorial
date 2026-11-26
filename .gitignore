@@ -1,0 +1,39 @@
+# ===== 依存パッケージ =====
+node_modules/
+
+# ===== ビルド成果物 =====
+dist/
+build/
+*.tsbuildinfo
+
+# ===== テスト関連 =====
+coverage/
+
+# ===== Claude Code のローカル設定 =====
+.claude/settings.local.json
+
+# ===== ログ =====
+logs/
+*.log
+npm-debug.log*
+
+# ===== OS・エディタ =====
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.swp
+
+# ===== 機密情報（APIキー・認証情報など） =====
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
+secrets.yml
+id_rsa*
